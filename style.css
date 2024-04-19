@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 4vw;
+    padding-top: 7.5vw;
+
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left h1 {
+    font-size: 5vw;
+    line-height: 5.1vw;
+font-weight: 500;
+}
+
+.colors{
+    border: 2px solid #0000005f;
+    padding: .3vw 0;
+    width: fit-content;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 0;
+}
+
+
+
+.colors h5 {
+    margin: 0 .5vw;
+    font-size: 1vw;
+    font-weight: 400;
+
+}
+.colors1{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(115, 30, 30);
+    border-radius: 50%;
+}
+.colors2{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(102, 79, 26);
+    border-radius: 50%;
+    margin-right: .7vw;
+}
+
+.bottom-text h2 {
+    font-size: 2vw;
+    line-height: 2.1vw;
+    font-weight: 400;
+}
+
+.bottom-text p {
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    padding: 1vw 0;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+    align-items: center;
+    position: relative;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.upper p {
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.rating i {
+    color: goldenrod;
+}
+
+.right img {
+    width: 25vw;
+}
+
+.side-p {
+    position: absolute;
+    bottom: 50%;
+    left: -3%;
+}
+
+.side-p p {
+    font-size: 1.2vw;
+    transform: rotate(-90deg);
+    font-weight: 700;
+}
+
+.circle {
+    width: 6vw;
+    height: 6vw;
+    background-color: rgba(86, 86, 86, 0.655);
+    color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 16%;
+    bottom: 50%;
+}
+
+.circle p {
+    font-size: 1.2vw;
+    font-weight: 900;
+}
